@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Pet Lovers Tunisie – admin</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="js/admin.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html"><span class="pw">🐾</span>Pet Lovers</a>
+    <nav id="nav" aria-label="Navigation principale"></nav>
+    <button class="ico" id="th" aria-label="Changer le thème">◐</button>
+    <button class="ico" id="lg" aria-label="Changer la langue">عربية</button>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <footer class="ft"><div><b>Pet Lovers Tunisie</b><br>Adoption, boutique et services pour vos compagnons.</div><div><a href="index.html#adopt">Adopter</a><a href="index.html#shop">Boutique</a><a href="index.html#services">Services</a><a href="index.html#partner">Partenaires</a></div></footer>
+  <dialog id="dlg"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <button class="btn" id="cb" aria-expanded="false" aria-controls="cp">💬 Assistant</button>
+  <section id="cp" hidden aria-label="Assistant Pet Lovers"><h2>Assistant Pet Lovers <button class="ch" data-q="nouvelle session" style="margin:0">Nouvelle session</button></h2><div id="log" role="log" aria-live="polite"></div><form id="cf"><input id="ci" placeholder="Posez votre question" aria-label="Votre question" autocomplete="off"><button class="btn">Envoyer</button></form></section>
+</body>
+</html>

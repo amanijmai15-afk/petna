@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5ef">
+  <title>Pet Lovers Tunisie — Toutes les pages</title>
+  <link rel="stylesheet" href="css/accueil.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase.js" defer></script>
+  <script src="js/accueil.js" defer></script>
+  
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="accueil.html">🐾 <span>Pet Lovers</span></a>
+    <span class="tag">Tunisie · Le bien-être de vos compagnons</span>
+  </header>
+  <main class="wrap">
+    <section class="intro">
+      <p class="eyebrow">Bienvenue chez Pet Lovers</p>
+      <h1>Tout pour vos amis<br><em>à quatre pattes.</em></h1>
+      <p class="lead">Choisissez une rubrique pour ouvrir directement la page correspondante.</p>
+      <a class="primary" href="index.html">Ouvrir le site principal <span>↗</span></a>
+    </section>
+    <section class="section-head">
+      <div><p class="eyebrow">Explorer le site</p><h2>Nos pages</h2></div>
+      <span id="page-count" class="count">12 rubriques</span>
+    </section>
+    <nav class="cards" aria-label="Toutes les pages Pet Lovers">
+      <a class="tile" href="index.html"><span class="emoji">🏡</span><span class="tile-title">Accueil</span><span class="desc">Découvrir Pet Lovers et les actualités.</span><span class="arrow">Ouvrir ↗</span></a>
+      <a class="tile" href="adopter.html"><span class="emoji">🐶</span><span class="tile-title">Adoption</span><span class="desc">Voir les animaux et les annonces d’adoption.</span><span class="arrow">Ouvrir ↗</span></a>
+      <a class="tile" href="boutique.html"><span class="emoji">🛍️</span><span class="tile-title">Boutique</span><span class="desc">Parcourir les accessoires et les produits.</span><span class="arrow">Ouvrir ↗</span></a>
+      <a class="tile" href="simulateur.html"><span class="emoji">✨</span><span class="tile-title">Simulateur</span><span class="desc">Accéder à l’espace de simulation.</span><span class="arrow">Ouvrir ↗</span></a>
+      <a class="tile" href="services.html"><span class="emoji">🩺</span><span class="tile-title">Services</span><span class="desc">Découvrir les services pour vos animaux.</span><span class="arrow">Ouvrir ↗</span></a>
+      <a class="tile" href="calendrier.html"><span class="emoji">📅</span><span class="tile-title">Calendrier</span><span class="desc">Organiser les rendez-vous et les rappels.</span><span class="arrow">Ouvrir ↗</span></a>
+      <a class="tile" href="carte.html"><span class="emoji">📍</span><span class="tile-title">Carte</span><span class="desc">Localiser les services et les adresses.</span><span class="arrow">Ouvrir ↗</span></a>
+      <a class="tile" href="tutoriels.html"><span class="emoji">📚</span><span class="tile-title">Tutoriels</span><span class="desc">Conseils et guides pour prendre soin d’eux.</span><span class="arrow">Ouvrir ↗</span></a>
+      <a class="tile" href="panier.html"><span class="emoji">🧺</span><span class="tile-title">Panier / Commande</span><span class="desc">Consulter le panier et préparer une commande.</span><span class="arrow">Ouvrir ↗</span></a>
+      <a class="tile" href="partenaire.html"><span class="emoji">🤝</span><span class="tile-title">Partenaires</span><span class="desc">Accéder à l’espace des partenaires.</span><span class="arrow">Ouvrir ↗</span></a>
+      <a class="tile" href="compte.html"><span class="emoji">👤</span><span class="tile-title">Mon compte</span><span class="desc">Se connecter ou créer un compte.</span><span class="arrow">Ouvrir ↗</span></a>
+      <a class="tile" href="admin.html"><span class="emoji">⚙️</span><span class="tile-title">Administration</span><span class="desc">Gérer les annonces et les utilisateurs.</span><span class="arrow">Ouvrir ↗</span></a>
+    </nav>
+    <p class="note">Conseil : ouvre <strong>accueil.html</strong> pour retrouver tous les liens. Pour utiliser les fonctionnalités connectées, lance le dossier avec Live Server dans VS Code.</p>
+  </main>
+  <footer>© Pet Lovers Tunisie <span>Fait avec 🐾</span></footer>
+</body>
+</html>
